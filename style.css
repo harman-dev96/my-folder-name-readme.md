@@ -1,0 +1,69 @@
+/* CSS Variables for Light Theme */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --header-bg: #4CAF50;
+    --sidebar-bg: #f2f2f2;
+}
+
+/* Dark Theme Variables */
+.dark-theme {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --header-bg: #1f1f1f;
+    --sidebar-bg: #2c2c2c;
+}
+
+/* General Styling */
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
+
+/* Grid Layout */
+.dashboard {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 40px;
+    height: 100vh;
+}
+
+/* Grid Areas */
+.header {
+    grid-area: header;
+    background-color: var(--header-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: var(--sidebar-bg);
+    padding: 15px;
+}
+
+.content {
+    grid-area: content;
+    padding: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: var(--header-bg);
+    text-align: center;
+    line-height: 40px;
+}
+
+/* Button */
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
