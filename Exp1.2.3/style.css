@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toolbar {
+  margin: 10px;
+}
+
+button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+svg {
+  width: 90vw;
+  height: 75vh;
+  border: 2px solid #333;
+  background: white;
+  cursor: crosshair;
+}
+.topbar {
+  background: #0f1c2e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 30px;
+  font-family: Arial, sans-serif;
+}
+
+.topbar .title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.topbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 16px;
+  transition: opacity 0.2s ease;
+}
+
+.topbar nav a:hover {
+  opacity: 0.7;
+}
+
+.topbar .home {
+  margin-left: 40px;
+  background: #1e90ff;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+

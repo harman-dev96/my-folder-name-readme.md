@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Web Technology Lab Experiments</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 500px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .links a {
+      display: block;
+      margin: 12px 0;
+      padding: 12px;
+      background: white;
+      color: #333;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .links a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+  </style>
 </head>
 <body>
 
-<div class="dashboard">
-    <header class="header">
-        <h2>Admin Dashboard</h2>
-        <button id="themeToggle">Toggle Theme</button>
-    </header>
+  <div class="container">
+    <h1>Web Technology Lab Experiments</h1>
 
-    <aside class="sidebar">
-        <ul>
-            <li>Dashboard</li>
-            <li>Users</li>
-            <li>Reports</li>
-            <li>Settings</li>
-        </ul>
-    </aside>
+    <div class="links">
+      <a href="Exp1.2.1/index.html">Experiment 2.1 – Character Counter</a>
+      <a href="Exp1.2.2/index.html">Experiment 2.2 – Product Filter</a>
+      <a href="Exp1.2.3/index.html">Experiment 2.3 – SVG Drawing Tool</a>
+    </div>
+  </div>
 
-    <main class="content">
-        <h3>Welcome Admin</h3>
-        <p>This is the main content area.</p>
-    </main>
-
-    <footer class="footer">
-        © 2026 Admin Panel
-    </footer>
-</div>
-
-<script src="script.js"></script>
 </body>
 </html>
