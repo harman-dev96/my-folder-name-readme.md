@@ -1,50 +1,70 @@
-# Personal Information
-Name: Harman Singh
-UID: 24BCF10046  
-Group: 24BCF- 1(B) 
+# Getting Started with Create React App
 
-Click the index.Html to run the expriments with the header
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-exp1.2.1 
-Learning Outcomes
+## Available Scripts
 
-After completing this experiment, I learned:
+In the project directory, you can run:
 
-How to capture real-time user input using JavaScript event listeners.
+### `npm start`
 
-How to dynamically update webpage content without reloading the page.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-How to use string length to calculate and display character limits.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-How to provide visual feedback (color changes) when a limit is nearly reached.
+### `npm test`
 
-How HTML, CSS, and JavaScript work together to create interactive user interfaces.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-exp1.2.2
-Learning Outcomes
+### `npm run build`
 
-After completing this experiment, I learned:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-How to store and manage product data using JavaScript arrays.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-How to sort data dynamically based on user selection from a dropdown menu.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-How to update webpage elements dynamically using DOM manipulation.
+### `npm run eject`
 
-How CSS Grid helps create responsive product card layouts.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-How interactive filtering improves user experience in web applications.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-exp1.2.3
-Learning Outcomes
-After completing this experiment, I learned:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-How to use SVG elements to create a scalable drawing canvas.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-How to track mouse events (mousedown, mousemove, mouseup) to create drawing functionality.
+## Learn More
 
-How to dynamically generate and manipulate SVG path elements using JavaScript.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-How to implement additional features like color selection and undo functionality.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-How responsive design techniques (viewport units) make applications adapt to different screen sizes.
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
